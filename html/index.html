@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<body>
+    <script src="./a.out.js"></script>
+    <script>
+        function run_cpp()
+        {
+            console.log("running wasm")
+            Module.ccall("entryPoint", "null", [])
+        }
+    </script>
+    <button onclick="run_cpp()">Run C++</button> 
+    
+    <script src="./js.js"></script>
+    <script>
+        function run_js()
+        {
+            console.log("running js")
+            main();
+        }
+    </script>
+    <button onclick="run_js()">Run js</button> 
+
+</body>
+</html>
+
+

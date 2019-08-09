@@ -1,0 +1,31 @@
+c++
+array size 50000000
+mean value 0.499997
+ackermann value 65533
+array generation time    1151.14ms
+mean calculation time    55.233ms
+ackermann execution time 3439.04ms
+
+wasm firefox
+array size 50000000
+mean value 0.500078
+ackermann value 65533
+array generation time    698ms       164% spped upfactor 1.64
+mean calculation time    73ms         75%
+ackermann execution time 6962ms       49%
+
+nodejs
+array size 50000000
+mean value 0.5000131900159226
+ackerman value 65533
+array generation time    1715ms      67%
+mean calculation time    1303ms       4%
+ackermann execution time 31739ms     11%
+
+js + firefox
+array size 50000000
+mean value 0.4999708514687144
+ackerman value 65533
+array generation time    2464ms      47%
+mean calculation time    217ms       25%
+ackermann execution time 18437ms     19%
